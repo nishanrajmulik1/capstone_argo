@@ -48,7 +48,7 @@ data:
     );
 ---
 apiVersion: v1
-kind: PersistentVolumeclaim
+kind: persistentVolumeClaim
 metadata:
   name: db-data-pvc
 spec:
