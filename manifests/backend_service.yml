@@ -7,7 +7,7 @@ spec:
     app: user-service
   ports:
     - protocol: TCP
-      port: 80
+      port: 5000
       targetPort: 5000 # Adjust to your app's internal port if different
 ---
 apiVersion: apps/v1
@@ -46,7 +46,7 @@ spec:
     app: product-service
   ports:
     - protocol: TCP
-      port: 80
+      port: 5000
       targetPort: 5000
 ---
 apiVersion: apps/v1
@@ -85,7 +85,7 @@ spec:
     app: order-service
   ports:
     - protocol: TCP
-      port: 80
+      port: 5000
       targetPort: 5000
 ---
 apiVersion: apps/v1
