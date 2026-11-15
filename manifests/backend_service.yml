@@ -107,7 +107,7 @@ spec:
           image: nishanrajmulik1/order_service:latest
           envFrom:
             - configMapRef:
-                name: ecomm.config
+                name: ecomm-config
           env:
             - name: DB_PASSWORD
               valueFrom:
